@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "chapter_9\\.gitignore": true,
+    ".gitignore": true,
+    ".metadata": true,
+    "chapter_9\\.project": true,
+    "chapter_9\\.classpath": true,
+    "chapter_9\\bin": true,
+    "chapter_9\\.settings": true,
+    "account_exercise\\.settings": true,
+    "account_exercise\\bin": true,
+    "account_exercise\\.classpath": true,
+    "account_exercise\\.gitignore": true,
+    "account_exercise\\.project": true,
+    "chapter_9\\src": true
+  }
+}
