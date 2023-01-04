@@ -31,7 +31,7 @@ public class Program {
 			sum += vect[i].getPrice();
 		}
 		
-		double avg = sum / n;
+		double avg = sum / vect.length;
 		
 		
 		System.out.printf("AVERAGE PRICE: %.2f", avg);
