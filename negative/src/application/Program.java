@@ -20,6 +20,8 @@ public class Program {
 			sc.nextLine();
 			vect[i] = valueAdd;
 		}
+		
+		
 
 		System.out.println("Added negative values");
 
@@ -30,7 +32,13 @@ public class Program {
 			if (recValue < 0) {
 				System.out.println(recValue);
 			}
+			
 		}
+		
+		
+		
+		
+		
 
 
 	}
