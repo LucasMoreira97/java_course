@@ -9,8 +9,7 @@ public class Program {
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
-		
+				
 		System.out.print("Quantas pessoas serão adicionadas? ");
 		int n = sc.nextInt();
 		
@@ -30,15 +29,21 @@ public class Program {
 			
 			System.out.print("Altura: ");
 			alturas[i] = sc.nextDouble();
-			
+	
 		}
 		
 		
 		double soma = 0.0;
 		
+		
+		
+		
 		for(int i = 0; i < n; i++) {
 			soma += alturas[i];
 		}
+		
+		
+		
 		
 		double mediaAlturas = soma / n;
 		
