@@ -5,10 +5,8 @@ public class Rent {
 	private String name;
 	private String email;
 	
-	
+
 	public Rent() {
-		
-		
 		
 		
 	}
@@ -22,8 +20,6 @@ public class Rent {
 
 	
 	
-	
-
 	public String getName() {
 		return name;
 	}
@@ -48,8 +44,6 @@ public class Rent {
 	public String toString() {
 		return name + ", " + email;
 	}
-	
-	
 	
 	
 	
