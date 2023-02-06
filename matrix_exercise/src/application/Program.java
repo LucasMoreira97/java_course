@@ -22,6 +22,8 @@ public class Program {
 			
 		}
 		
+		
+		
 		System.out.println("Main diagonal: ");
 		for(int i =0; i < mat.length; i++) {
 			System.out.println(mat[i][i] + " ");
