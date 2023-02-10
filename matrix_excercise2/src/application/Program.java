@@ -16,6 +16,9 @@ public class Program {
 
 		int[][] mat = new int[line][column];
 
+		
+		
+		
 		for (int l = 0; l < mat.length; l++) {
 
 			// System.out.println("LINHA: " + l);
