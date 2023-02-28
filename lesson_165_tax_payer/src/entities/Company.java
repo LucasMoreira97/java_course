@@ -5,6 +5,7 @@ public class Company extends TaxPayer{
     private Integer numberOfEmployees;
 
     public Company(){
+
         super();
     }
 
@@ -15,15 +16,23 @@ public class Company extends TaxPayer{
 
 
     public Integer getNumberOfEmployees() {
+
         return numberOfEmployees;
     }
 
     public void setNumberOfEmployees(Integer numberOfEmployees) {
+
         this.numberOfEmployees = numberOfEmployees;
     }
 
     @Override
     public double tax(){
-        return 0;
+
+        if(numberOfEmployees > 10){
+            return getAnualIncome() * 0.14;
+        }else {
+            return getAnualIncome() * 0.16;
+        }
+
     }
 }
